@@ -69,9 +69,9 @@
 #makeup:hover #submenu{
     display:block;
 }
-#main-header p{
-    /*width: 100px;*/
-    /*height: 50px;*/
+#main-header #clear{
+    /*width: 45px;*/
+    /*height: 65px;*/
     color: #ffffff;
     position:relative;
     left:190px;
@@ -152,12 +152,20 @@
     outline:none;
     text-indent:10px;
 }
-#problme{
+#problem{
     background: url(../img/banner2.jpg) no-repeat center;
     height: 400px;
 }
-#problme .wrapper{
+#problem .wrapper{
     width: 1000px;
+}
+.problem-menu{
+    padding-left: 40px;
+    /*width: 40px;*/
+    /*height:40px;*/
+    float: left;
+    margin-right: 40px;
+    margin-top: 100px
 }
 .problem-menu li{
     color:#ffffff;
@@ -166,6 +174,24 @@
 }
 .problem-menu li a{
     color:#ffffff;
-    
-
+}
+.problem-menu li a:hover{
+    text-decoration: underline;
+}
+.menue-bold{
+    font-weight: bolder;
+}
+#footer{
+    background: #fa558f;
+    height:82px;
+    line-height: 82px;
+}
+#footer h3,#footer h4{
+    color:#fff;
+}
+#footer h3{
+    float:left;
+}
+#footer h4{
+    float:right;
 }
