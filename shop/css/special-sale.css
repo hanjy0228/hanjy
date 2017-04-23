@@ -1,0 +1,24 @@
+#header{
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+}
+#main-header{
+    color: #ffffff;
+    height: 400px;
+    line-height: 400px;
+}
+.float{
+    float:left;
+
+}
+#cart .float{
+    background: url(../img/cart.png) no-repeat 230px center;
+    width: 260px;
+    height: 30px;
+    cursor: pointer;
+    opacity: .5;
+    filter:alpha(opacity =50);
+    color: #000;
+    text-align: center;
+
+}
