@@ -1,0 +1,31 @@
+#header{
+    background: url(../img2/banner.jpg) no-repeat center;
+    height: 600px;
+}
+#new-product{
+    margin-top: 56px;
+    height: 266px;
+}
+#new-product .sale{
+    width: 360px;
+    height: 210px;
+    float:left;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+}
+#new-product .bg1{
+    background-image: url(../img2/bg1.jpg);
+}
+#new-product .bg2{
+    background-image: url(../img2/bg2.jpg);
+}
+#new-product .bg3{
+    background-image: url(../img2/bg3.jpg);
+    margin-right: 0;
+}
+#new-product h4{
+    color:#fff;
+    font-size:30px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
