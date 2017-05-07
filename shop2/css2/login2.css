@@ -1,0 +1,15 @@
+ .float{
+    float:left;
+}
+#login-container{
+    width: 1263px;
+    height: 380px;
+    margin-top: 30px;
+}
+#login-info{
+    width: 570px;
+    height: 290px;
+}
+#register{
+    margin-left: 30px;
+}

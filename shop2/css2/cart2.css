@@ -1,0 +1,70 @@
+#cart-container{
+    height: 600px;
+    background: #efefef;
+    padding-top: 30px;
+}
+#mine-cart{
+    width: 855px;
+    height: 504px;
+    margin-top: 30px;
+}
+.cart-detail{
+    margin-top: 30px;
+    width: 840px;
+    height: 204px;
+}
+#mine-cart .cosmetic {
+    height: 134px;
+    width: 134px;
+    float:left;
+
+}
+#mine-cart .close{
+    float:right;
+    cursor: pointer;
+}
+
+#mine-cart .cart-info{
+    /*width: 625px;*/
+    margin-left: 30px;
+    float: left;
+
+}
+.price{
+    margin-top: 50px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #3c3b3b;
+    width: 625px;
+}
+.on-sale{
+    margin-right: 30px;
+}
+.price input[type="number"]{
+    width: 82px;
+    height: 34px;
+    text-indet:10px;
+    border-radius: 5px;
+    border:1px solid #cccccc;
+    margin-left: 10px;
+}
+.time span{
+    float:left;
+    margin-top: 30px;
+    color:#3c3b3b;
+    font-size:15px;
+    /*margin-bottom: 30px;*/
+}
+.time .arrive{
+    float:right;
+}
+.float{
+    float:left;
+}
+#cart-price{
+    border-left: 1px solid #3c3b3b;
+    /*float:left;*/
+    width: 280px;
+    height: 381px;
+    margin-top: 50px;
+}
