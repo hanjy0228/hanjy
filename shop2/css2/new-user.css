@@ -1,0 +1,68 @@
+.float{
+    float:left;
+}
+#new-user-container{
+    width: 1263px;
+    height: 500px;
+}
+#new-register{
+    width: 555px;
+    height: 422px;
+}
+#promise{
+    width: 555px;
+}
+#new-register h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#new-register span{
+    color:#cccccc;
+
+}
+#new-register a{
+    color:#3c3b3b;
+    text-decoration: none;
+}
+#new-register #click:hover{
+    text-decoration: underline;
+    color:#f18e4c;
+}
+#new-register input{
+    margin-top: 20px;
+    width: 404px;
+    height: 42px;
+    text-indent:10px;
+    outline:none ;
+    /*margin-bottom: 20px;*/
+}
+#new-register #right-now{
+    width: 444px;
+    height: 41px;
+    color:#fff;
+    background: #f18e4c;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:10px;
+}
+#new-register #right-now:hover{
+
+    background: #ffffff;
+    color:#000000;
+    border:1px solid #000000;
+}
+#promise{
+    float:right;
+    margin-top: 20px;
+}
+
+#promise .promise-title{
+    margin-top: 30px;
+    color:#f18e4c;
+    font-size: 20px;
+}
+#promise .promise-dital{
+    margin-top: 20px;
+    color:#cccccc;
+}

@@ -13,3 +13,8 @@
 #register{
     margin-left: 30px;
 }
+#register{
+    width: 540px;
+    height: 140px;
+    float:right;
+}
