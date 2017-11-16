@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="app">
+    是否需要额外付费设备：<input type="checkbox" v-modal="show" @click="showFacility" />
+    <ul>
+        <li v-for="obj in arr">
+            {{obj.name}}{{obj.price}}
+            <input type="checkbox" v-modal="facility :value=obj"/>
+        </li>
+    </ul>
+    订单费用信息
+    <ul>
+        <li v-for="obj in facility">
+            {{obj.name}}{{obj.price}}
+        </li>
+    </ul>
+    总费用：{{total()}}
+</div>
+</body>
+<script src="vue.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        data:{
+            arr:[],
+            show:false,
+            facility:[{name:群力豪华花园},{price:400}]
+        },
+        methods:{
+            showFacility(){
+                if(this.show) {
+                    this.arr = [
+                        {name: 1}, {price: 300},
+                        {name: 2}, {price: 399}
+                    ];
+                }
+                else{
+                    this.arr=[];
+                    this.facility.splice(1);
+                }
+            }
+        }
+    })
+
+</script>
+</html>

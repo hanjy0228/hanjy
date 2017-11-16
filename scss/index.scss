@@ -1,0 +1,36 @@
+$aa:#00A6FE;
+$bb:1px solid $aa;
+$test:'font';
+body{
+  color: $aa;
+  #{$test + -size}: 18px;
+  #{$test + -family}: Sana;
+}
+ul{
+  font-size: 14px;
+  li{
+    background-color: $aa;
+    a{
+      border:3px solid #000
+    {
+      left:$bb;
+      right:2px solid #000;
+    };
+      &:hover{
+        border: 2px solid #000;
+      }
+    }
+  }
+}
+
+#{$test +1}{
+  color:#00ff00;
+}
+$i:4;
+@while $i>0{
+  .col-#{$i}{
+    width:20px*$i;
+  }
+  $i: $i - 1;
+}
+

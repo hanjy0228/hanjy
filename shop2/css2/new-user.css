@@ -2,12 +2,23 @@
     float:left;
 }
 #new-user-container{
-    width: 1263px;
     height: 500px;
+}
+#new-register #reg{
+    color:#5d5959;
+    margin: 20px 0;
+}
+#new-register p{
+    margin-top: 20px;
+    height: 42px;
 }
 #new-register{
     width: 555px;
     height: 422px;
+}
+#reg-form{
+    width: 555px;
+    height: 318px;
 }
 #promise{
     width: 555px;
@@ -29,25 +40,30 @@
     color:#f18e4c;
 }
 #new-register input{
-    margin-top: 20px;
     width: 404px;
     height: 42px;
     text-indent:10px;
     outline:none ;
-    /*margin-bottom: 20px;*/
+    float:right;
 }
 #new-register #right-now{
+    margin-left: 50px;
+    display:block;
+    margin-top: -30px;
     width: 444px;
     height: 41px;
-    color:#fff;
+}
+#new-register button{
+    width: 444px;
+    height: 41px;
+    color:#ffffff;
     background: #f18e4c;
     border:none;
     font-size:20px;
     cursor:pointer;
     border-radius:10px;
 }
-#new-register #right-now:hover{
-
+#new-register button:hover{
     background: #ffffff;
     color:#000000;
     border:1px solid #000000;
@@ -56,7 +72,6 @@
     float:right;
     margin-top: 20px;
 }
-
 #promise .promise-title{
     margin-top: 30px;
     color:#f18e4c;

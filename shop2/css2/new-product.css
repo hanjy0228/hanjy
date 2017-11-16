@@ -1,0 +1,16 @@
+#new-product-container{
+    height: 650px;
+    /*width: 809px;*/
+    margin-top: 50px;
+}
+#picture{
+    width: 494px;
+    height: 567px;
+    /*overflow: hidden;*/
+}
+#picture .big{
+    padding:6px;
+}
+#picture .small{
+
+}

@@ -1,0 +1,18 @@
+#header{
+    width: 1283px;
+    height: 500px;
+    background:url("../images/polygon.png") 100% 100%;
+    position:relative;
+}
+/*#header-blank{*/
+    /*width: 1283px;*/
+    /*height: 273px;*/
+    /*position:absolute;*/
+    /*top: 500px;*/
+/*}*/
+#header img{
+    position: absolute;
+    bottom:-83px;
+    left:550px;
+    border-radius:50%;
+}

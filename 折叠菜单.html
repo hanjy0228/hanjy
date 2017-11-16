@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        width: 200px;
+        border:1px solid #fa558f;
+        margin: 100px auto;
+    }
+    li{
+        text-align: center;
+        list-style: none;
+    }
+    .menu h3{
+        background:#fa558f;
+        color:#ffffff;
+        cursor: pointer;
+    }
+    .submenu li:hover{
+        background: #cccccc;
+        cursor:pointer;
+    }
+    .submenu{
+        display: none;
+    }
+</style>
+<body>
+    <ul id="container">
+        <li class="menu">
+            <h3>管理区</h3>
+            <ul class="submenu">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+
+        </li>
+        <li class="menu">
+            <h3>交流区</h3>
+            <ul class="submenu">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </li>
+    </ul>
+
+    <script src="jquery-1.11.2.js"></script>
+    <script>
+        $(function(){
+            $(".menu h3").on("click",function(){
+                $(this).next().stop(false,true).slideToggle(1000);
+            });
+        });
+    </script>
+</body>
+</html>

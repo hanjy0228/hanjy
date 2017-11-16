@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class="aa" id="div1">
+        <p>pp
+            <p>p1p1</p>
+        </p>
+    </div>
+    <div class="aa" id="div2">2 </div>
+    <ul id="ull">
+        <li id="li1">001</li>
+        <li id="li2">002</li>
+        <li class="aa">003</li>
+        <li>004</li>
+    </ul>
+    <!--<form action="">-->
+        <!--用户名：<input type="text" name="username" value="张三"/><br/>-->
+        <!--电话：<input type="text" name="tel" vale="1312343"/><br/>-->
+        <!-- -->
+    <!--</form>-->
+    <script src="jquery-1.11.2.js"></script>
+    <script>
+        $(function(){
+//            $(".aa").css("background","red");
+//            $("#li2~li").css("background","red");
+            $("#ul1 li:gt(1)").css("background","red");
+        })
+    </script>
+</body>
+</html>

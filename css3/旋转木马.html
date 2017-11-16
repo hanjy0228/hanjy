@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            perspective: 1000px;
+            perspective-origin: 50% 400px;
+        }
+        #container{
+            height: 125px;
+            width: 125px;
+            position:relative;
+            transform-style:preserve-3d ;
+            margin:100px auto;
+            transition: all 1s linear;
+            margin:200px auto;
+        }
+        #container img{
+            width: 125px;
+            height: 125px;
+            position:absolute;
+
+            transition: all 1s linear;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script>
+        var oContainer=document.getElementById("container");
+        var count=0;
+        for(var i=0;i<9;i++){
+            var oImg=new Image;
+            oImg.onload=function(){
+               count++;
+                if(count==9){
+                   loadSuccess();
+                };
+            };
+            oImg.src="images/"+(i+1) +".jpg";
+            oContainer.appendChild(oImg);
+        }
+
+        var num=0;
+        oContainer.onclick=function(){
+            num++;
+            oContainer.style.transform="rotateY("+num*40+"deg)";
+        }
+
+        function loadSuccess(){
+            var aImg=oContainer.getElementsByTagName("img");
+            for(var i=0;i<aImg.length;i++){
+                aImg[i].style.transitionDelay=i+"s";
+                aImg[i].style.transform="rotateY("+(i+1)*40+"deg) translateZ(200px)";
+            }
+        }
+
+    </script>
+</body>
+</html>

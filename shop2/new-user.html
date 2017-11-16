@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
     <title>新用户注册</title>
@@ -26,8 +26,8 @@
                         <a href="">美妆商城</a>
                         <div id="submenu"> </div>
                     </li>
-                    <li ><a href="">特卖专场</a></li>
-                    <li ><a href="">新品上市</a></li>
+                    <li ><a href="special-sale.html">特卖专场</a></li>
+                    <li ><a href="new-product.html">新品上市</a></li>
                     <li ><a href="">潮人推荐</a></li>
                     <li ><a href="">进口免税</a></li>
                 </ul>
@@ -36,17 +36,32 @@
     </div>
     <div id="new-user-container">
         <div class="wrapper">
+            <h2>注册账号</h2>
             <div id="new-register" class="float">
-                <h2>注册账号</h2>
-                <span>请按按照以下步骤来哦！<br/>
+                    <p id="reg">请按按照以下步骤来哦！<br/>
                     如果已经注册过了请
-                    <a href="login2.html" id="click">点击这里</a>
-                </span><br/>
-                用户名：<input type="text"/><br/>
-                邮箱：<input type="text"/><br/>
-                密码：<input type="password"/><br/>
-                <button id="right-now"><a href="new-user.html">立即注册</a></button>
-                <br/>
+                    <a href="login2.html" id="click">点击这里</a></p>
+                <form action="" id="reg-form">
+                <p>
+                <label>
+                <span>用户名：</span>
+                    <input type="text"/>
+                </label>
+                </p>
+                <p>
+                <label>
+                <span>邮箱：</span>
+                    <input type="text"/>
+                </label>
+                </p>
+                <p>
+                <label>
+                <span>密码：</span>
+                    <input type="password"/>
+                </label>
+                </p>
+                </form>
+                <span id="right-now"><button ><a href="new-user.html">立即注册</a></button></span>
             </div>
             <div id="promise" class="float">
                 <div class="promise-title">正品保证</div>
@@ -56,7 +71,6 @@
                 <div class="promise-title">产品质量保证</div>
                 <div class="promise-dital">我的小店严把采购渠道，坚持只从厂家、代理商、国内外专柜以及资深供货商合作等可信渠道采购商品，直接通过生产厂家或总代理等授权供货渠道直接进货。同时，我的小店与国内外多家知名化妆品牌建立强有力合作关系，开设官方授权旗舰店，为消费者提供100%可靠放心的来源和质量保证。
                 </div>
-
             </div>
         </div>
     </div>

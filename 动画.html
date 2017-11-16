@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div1{
+            width: 200px;
+            height: 200px;
+            background: #fa558f;
+            position: relative;
+            top:0;
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">move</button>
+    <div id="div1"></div>
+
+    <script src="wichung-1.0.js"></script>
+    <script>
+        var oBtn=document.getElementById("btn");
+        var oDiv =document.getElementById("div1");
+        oBtn.onclick=function(){
+
+            animate(oDiv,{
+                top:40
+            },function(){
+                animate(oDiv,{
+                    left:100
+                });
+            });
+
+        };
+    </script>
+</body>
+</html>
