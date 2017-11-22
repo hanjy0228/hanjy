@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+    function outer(){
+        var a=5;
+        function inner(){
+            return a;
+        }
+        return inner;
+    }
+
+    var fn=outer();
+    console.log(fn());
+</script>
+</html>
